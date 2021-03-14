@@ -29,7 +29,7 @@ Collecting pytz
 Installing collected packages: pytz, Django
 Successfully installed Django-2.1.3 pytz-2021.1
 ```
-## Installing and configuration Graphene  
+## Installing and configuration graphene-django  
 1. Install graphene for django  
 `pip install "graphene-django>=2.0"`   
 ```    

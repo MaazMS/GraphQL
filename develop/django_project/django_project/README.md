@@ -1,6 +1,6 @@
 ## Creating django project   
 1. creating django project  
-`$ django-admin.py startproject django_graphql_projects`     
+`$ django-admin.py startproject django_graphql_projects .`     
 ```  
 .
 ├── django_graphql_projects
@@ -64,7 +64,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'projects'
+    'django_graphql_projects.projects'
 ]
 
+```  
+
+## Register SCHEMA
+1. Register SCHEMA for our project 
+```   
+GRAPHENE = {
+    'SCHEMA': 'django_graphql_projects.schema.schema'
+}
 ```

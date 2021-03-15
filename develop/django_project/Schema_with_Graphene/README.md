@@ -33,7 +33,8 @@ developer = graphene.Field(DeveloperType)
 1. As before when we designed our schema, we map the queries and mutations to our application's API. 
 `schema = graphene.Schema(query=Query, mutation=Mutation)`     
 
-## Registering the Schema in the Project  
+## Registering the Schema in the Project    
+1. we need to make a schema available project wide.
 ````  
 import django_graphql_projects.projects.schema  
 

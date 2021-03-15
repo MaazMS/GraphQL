@@ -56,5 +56,9 @@ GRAPHENE = {
 
 ## register route
 1. We need to register that route, or rather view, in Django.  
-1. insside project url.py  
-``
+1. inside project url.py  
+1. Creating GraphQL and GraphiQL views.  
+1. Unlike a RESTful API, there is only a single URL from which GraphQL is accessed.   
+1. Requests to this URL are handled by Graphene’s GraphQLView view.   
+1. This view will serve as GraphQL endpoint.   
+

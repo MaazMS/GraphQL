@@ -1,18 +1,18 @@
 # GraphQL   
 
-Index for GraphQL repositorry  
-1. [introduction](#introduction)   
-1. [REST vs Graphql](#REST-vs-Graphql)  
-1. [Architecture](#Architecture) 
+Index for GraphQL repository  
+1. introduction 
+1. REST vs Graphql
+1. Architecture
 
 Index for GraphQL project  
-1. [Application setup](#Application-setup)   
-1. [django graphql projects](#django-graphql-projects)
-    1. [Design project](#Design-project) 
-    1. [Creating Model](#Creating-Model)
-    1. [Schema with Graphene](#Schema-with-Graphene)
-    1. [Loading Test Data](#Loading-Test-Data)
-    1. [Testing Our API](#Testing-Our-API)
+1. Application setup   
+1. django graphql projects
+    1. Design project
+    1. Creating Model
+    1. Schema with Graphene
+    1. Loading Test Data
+    1. Testing Our API
     
     
 ## GraphQL concept   
